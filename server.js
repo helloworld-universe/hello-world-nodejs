@@ -1,7 +1,7 @@
 var http = require("http");
 
-console.log("Go to http://localhost:8888 in your browser.\n");
-console.log("Press CTRL-C to exit.\n");
+console.log("\nGo to http://localhost:8888 in your browser.\n");
+console.log("\nPress CTRL-C to exit.\n");
 
 http.createServer(function(request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});

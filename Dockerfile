@@ -3,6 +3,6 @@ MAINTAINER Yonas Yanfa
 
 EXPOSE 8888
 WORKDIR /root
-RUN apt-get update && apt-get install nodejs -y
+RUN apt-get update && apt-get install vim-tiny nodejs -y
 ADD . /root
-CMD ["/root/run.sh"]
+CMD bash -C '/root/run.sh';'bash'
